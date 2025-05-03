@@ -1,2 +1,2 @@
-![GitHub Logo](/image/Logo.png)
+![GitHub Logo](/image/KichThuocThietBi.png)
 Format: ![Alt Text](url)
