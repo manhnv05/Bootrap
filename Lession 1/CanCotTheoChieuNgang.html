@@ -5,11 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"></head>
-
+    <style>
+        .h-10 {
+            height: 10rem;
+        }
+    </style>
 </head>
 <body>
     <h1>Hello Manh</h1>
-    
+    <div class="container">
+        <!-- justify-content-start: Căn trái -->
+        <div class="row h-10 bg-warning justify-content-start mb-3">
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+        </div>
+
+        <!-- justify-content-center: Căn giữa các phần tử -->
+        <div class="row h-10 bg-warning justify-content-center mb-3">
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+        </div>
+
+        <!-- justify-content-end: Căn phải -->
+        <div class="row h-10 bg-warning justify-content-end mb-3">
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+        </div>
+
+        <!-- justify-content-around: Cách đều phần tử, có khoảng ngoài cùng -->
+        <div class="row h-10 bg-warning justify-content-around mb-3">
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+        </div>
+
+        <!-- justify-content-between: Cách đều phần tử, không có khoảng ngoài cùng -->
+        <div class="row h-10 bg-warning justify-content-between mb-3">
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+        </div>
+
+        <!-- justify-content-evenly: Cách đều phần tử, có khoảng ngoài cùng -->
+        <div class="row h-10 bg-warning justify-content-evenly mb-3">
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="bg-primary p-3 text-white mb-3">
+                    Columns
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
