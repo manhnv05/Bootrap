@@ -9,7 +9,54 @@
 </head>
 <body>
     <h1>Hello Manh</h1>
-    
+    <!--list-unstyled được sử dụng để loại bỏ các kiểu mặc định của danh sách không thứ tự (`<ul>`) hoặc danh sách có thứ tự (`<ol>`).  -->
+    <ul class="list-unstyled">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>
+            <ul class="list-unstyled">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+
+    <!-- list-inline: Áp dụng cho thẻ <ul> hoặc <ol> để biến danh sách thành hàng ngang. -->
+    <!-- list-inline-item: Áp dụng cho các mục danh sách <li> để hiển thị chúng theo hàng ngang. -->
+        <ul class="list-inline">
+        <li class="list-inline-item">1</li>
+        <li class="list-inline-item">2</li>
+        <li class="list-inline-item">3</li>
+    </ul>
+
+    <!-- list-group: Áp dụng cho thẻ <ul> hoặc <div> để tạo danh sách nhóm. -->
+    <!-- list-group-item: Áp dụng cho các mục danh sách <li> để tạo các mục trong danh sách nhóm. -->
+    <ul class="list-group">
+        <li class="list-group-item">HTML</li>
+        <li class="list-group-item">CSS</li>
+        <li class="list-group-item">JavaScript</li>
+    </ul>
+    <hr>
+
+    <!-- <dl>: Bao quanh toàn bộ danh sách mô tả. -->
+    <!-- <dt>: Được sử dụng để định nghĩa tên hoặc tiêu đề của một mục trong danh sách mô tả. -->
+    <!-- <dd>: Được sử dụng để định nghĩa mô tả hoặc nội dung liên quan đến tên hoặc tiêu đề được định nghĩa bởi <dt>. -->
+    <!-- text-truncate giúp cắt ngắn văn bản dài và hiển thị dấu ba chấm nếu nội dung vượt quá chiều rộng của phần tử chứa -->
+    <dl class="container">
+        <div class="row">
+            <dt class="col-md-3 text-truncate">First Description First Description First Description</dt>
+            <dd class="col-md-9">Lorem ipsum dolor sit amet consectetur adipisicing.</dd>
+
+            <dt class="col-md-3">Second Description</dt>
+            <dd class="col-md-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</dd>
+
+            <dt class="col-md-3">Third Description</dt>
+            <dd class="col-md-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</dd>
+        </div>
+    </dl>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
