@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"></head>
+    <style>
+        .h-10 {
+            height: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Hello Manh</h1>
+    <div class="container mt-3">
+        <!-- justify-content-center: căn giữa nội dung theo chiều ngang trong một flex container (thường là row). -->
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h3>Table Structured</h3>
+                <!-- align-middle: canh giữa theo chiều dọc (vertical), chỉ áp dụng cho nội dung bên trong bảng -->
+                <table class="table table-bordered table-sm align-middle">
+                    <thead>
+                    <tr class="h-10">
+                        <th>#</th>
+                        <th>Tên</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                    <tr class="table-active h-10">
+                        <td>1</td>
+                        <td>Nam</td>
+                        <td>nam@example.com</td>
+                        <td>012345678</td>
+                    </tr>
+                    <tr class="h-10">
+                        <td>2</td>
+                        <td>Lan</td>
+                        <td>lan@example.com</td>
+                        <td>0987654321</td>
+                    </tr>
+                    </tbody>
+                    <tfoot class="table-group-divider">
+                    <tr class="h-10">
+                        <td colspan="3">Tổng cộng</td>
+                        <td>2</td>
+                    </tr>
+                    </tfoot>
+                </table>
+                <h3>Table Structured</h3>
+                <!-- align-top: canh nội dung lên đầu theo chiều dọc, chỉ áp dụng cho nội dung bên trong bảng -->
+                <table class="table table-bordered table-sm align-top">
+                    <thead>
+                    <tr class="h-10">
+                        <th>#</th>
+                        <th>Tên</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                    <tr class="table-active h-10">
+                        <td>1</td>
+                        <td>Nam</td>
+                        <td>nam@example.com</td>
+                        <td>012345678</td>
+                    </tr>
+                    <tr class="h-10">
+                        <td>2</td>
+                        <td>Lan</td>
+                        <td>lan@example.com</td>
+                        <td>0987654321</td>
+                    </tr>
+                    </tbody>
+                    <tfoot class="table-group-divider">
+                    <tr class="h-10">
+                        <td colspan="3">Tổng cộng</td>
+                        <td>2</td>
+                    </tr>
+                    </tfoot>
+                </table>
+                <h3>Table Structured</h3>
+                <table class="table table-bordered table-sm">
+                    <thead>
+                    <tr class="h-10">
+                        <th>#</th>
+                        <th>Tên</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td colspan="4">
+                                <table class="table">
+                                    <tr class="table-active h-10">
+                                        <td>1</td>
+                                        <td>Nam fgh</td>
+                                        <td>nam@example.com</td>
+                                        <td>012345678</td>
+                                    </tr>
+                                    <tr class="h-10">
+                                        <td>2</td>
+                                        <td>Lan uok</td>
+                                        <td>lan@example.com</td>
+                                        <td>0987654321</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr class="table-active h-10">
+                        <td>1</td>
+                        <td>Nam</td>
+                        <td>nam@example.com</td>
+                        <td>012345678</td>
+                    </tr>
+                    <tr class="h-10">
+                        <td>2</td>
+                        <td>Lan</td>
+                        <td>lan@example.com</td>
+                        <td>0987654321</td>
+                    </tr>
+                    </tbody>
+                    <tfoot class="table-group-divider">
+                    <tr class="h-10">
+                        <td colspan="3">Tổng cộng</td>
+                        <td>2</td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
